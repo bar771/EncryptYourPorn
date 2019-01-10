@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="298.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ilcapo.encryptyourporn.controllers.AboutController">
+   <top>
+      <ImageView fx:id="logo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="images/GreenMarshmallow.png" />
+         </image>
+      </ImageView>
+   </top>
+   <center>
+      <Label fx:id="creditLabel" prefHeight="24.0" prefWidth="161.0" text="Developed by ilCapo © 2018" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Label onMouseClicked="#clickHandle_openSource" text="GitHub - Open Source" textFill="#222c80" underline="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin></Label>
+   </bottom>
+</BorderPane>
