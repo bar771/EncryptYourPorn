@@ -19,7 +19,7 @@ public class Main extends Application {
 		this.primaryStage = primaryStage;
 		Platform.setImplicitExit(false);
 		
-		primaryStage.setTitle("EncryptYourPorn - 1.0.1 Alpha");
+		primaryStage.setTitle("EncryptYourPorn - 2.0");
 	    primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/windows/mainPage.fxml")), width, height));
 	    primaryStage.setResizable(false);
 	    primaryStage.show();
