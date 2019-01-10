@@ -25,7 +25,7 @@ public class AboutController implements Initializable {
 	public void clickHandle_openSource() {
 		if (Desktop.isDesktopSupported()) {
 		    try {
-				Desktop.getDesktop().browse(new URI("https://github.com/bar771"));
+				Desktop.getDesktop().browse(new URI("https://github.com/bar771/EncryptYourPorn"));
 			} catch (IOException e1) {e1.printStackTrace();
 			} catch (URISyntaxException e1) {e1.printStackTrace();}
 		}

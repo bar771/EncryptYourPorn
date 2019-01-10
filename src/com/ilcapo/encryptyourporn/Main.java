@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 /*
@@ -20,6 +21,7 @@ public class Main extends Application {
 		Platform.setImplicitExit(false);
 		
 		primaryStage.setTitle("EncryptYourPorn - 2.0");
+		primaryStage.getIcons().add(new Image(Main.class.getResourceAsStream("/images/icon.png")));
 	    primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/windows/mainPage.fxml")), width, height));
 	    primaryStage.setResizable(false);
 	    primaryStage.show();
