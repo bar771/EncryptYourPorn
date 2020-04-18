@@ -1,4 +1,4 @@
-package com.ilcapo.encryptyourporn.controllers;
+package com.ilcapo.framework.controllers;
 
 import java.awt.Desktop;
 import java.io.IOException;

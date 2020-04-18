@@ -1,4 +1,4 @@
-package com.ilcapo.encryptyourporn.util;
+package com.ilcapo.framework.util;
 
 import java.io.File;
 import java.io.FileInputStream;

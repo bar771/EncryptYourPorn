@@ -1,4 +1,4 @@
-package com.ilcapo.encryptyourporn.controllers;
+package com.ilcapo.framework.controllers;
 
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -18,8 +18,8 @@ import javax.crypto.SecretKey;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
-import com.ilcapo.encryptyourporn.util.AES;
-import com.ilcapo.encryptyourporn.util.Crypto;
+import com.ilcapo.framework.util.AES;
+import com.ilcapo.framework.util.Crypto;
 
 public class MainController implements Initializable {
 
